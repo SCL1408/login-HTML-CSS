@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#all{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+}
+#content{
+    z-index: 200;
+    background-color: rgb(226, 26, 129);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 100%;
+    width: 35vw;
+    margin-right: -35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#side-img{
+    z-index: 1;
+    background-image: url(./background_maquito.jpg);
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+#logo{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height: auto;
+    width: auto;
+    border-collapse: collapse;
+    padding-top: 2vh;
+}
+#a1{
+    width: 200px;
+    border-collapse: collapse;
+}
+#a2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 128px;
+    padding-left: 60px;
+}
+h3{
+    display: flex;
+    justify-content: center;
+    padding-top: 4vh;
+}
+#formulario{
+    display: flex;
+    justify-content: center;
+    padding-top: 18vh;
+}
+label{
+    font-weight: 500;
+}
+#a3{
+    border-collapse: collapse;
+    padding: 10px;
+    width: 200px;
+    border-radius: 10px;    
+}
+#a4{
+    border-collapse: collapse;
+    padding: 8px;
+    width: 100px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+#keep-logged{
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    width: 100%;
+    padding-top: 2%;
+}
+p{
+    padding-left: 5%;
+}
